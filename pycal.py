@@ -26,7 +26,7 @@ while True:
             print("Result:", add(num1, num2))
     elif choice == '2':
             print("Result:", subtract(num1, num2))
-    elif choice == '3':
+    else choice == '3':
             print("Result:", multiply(num1, num2))
     else:
             print("Result:", divide(num1, num2))
